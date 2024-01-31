@@ -19,16 +19,15 @@ namespace Doga
                 int szam = Convert.ToInt32(Console.ReadLine());
                 if (szam != 0)
                 {
-                    szamok.Add(szam);
-                    Feladat3();
                     while (szam > 0)
                     {
-                        Console.WriteLine("kerek megegy szamot: ");
-                        szam = Convert.ToInt32(Console.ReadLine());
                         szamok.Add(szam);
                         Feladat3();
+                        Console.WriteLine("kerek megegy szamot: ");
+                        szam = Convert.ToInt32(Console.ReadLine());
                     }
                     Console.WriteLine("kilepett");
+                    Feladat4();
                 }
                 else
                 {
@@ -48,6 +47,19 @@ namespace Doga
                 Console.Write($"{item}, ");
             }
             Console.WriteLine();
+        }
+
+        public void Feladat4()
+        {
+            int min = szamok[0];
+            foreach (var item in szamok)
+            {
+                if (item < min)
+                {
+                    min = item;
+                }
+            }
+            Console.WriteLine($"A legkisebb ertek: {min}");
         }
     }
 }
