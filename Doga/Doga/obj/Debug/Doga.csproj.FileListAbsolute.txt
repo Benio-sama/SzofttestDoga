@@ -1,7 +1,0 @@
-C:\Users\vagok\Documents\GitHub\SzofttestDoga\Doga\Doga\bin\Debug\Doga.exe.config
-C:\Users\vagok\Documents\GitHub\SzofttestDoga\Doga\Doga\bin\Debug\Doga.exe
-C:\Users\vagok\Documents\GitHub\SzofttestDoga\Doga\Doga\bin\Debug\Doga.pdb
-C:\Users\vagok\Documents\GitHub\SzofttestDoga\Doga\Doga\obj\Debug\Doga.csproj.AssemblyReference.cache
-C:\Users\vagok\Documents\GitHub\SzofttestDoga\Doga\Doga\obj\Debug\Doga.csproj.CoreCompileInputs.cache
-C:\Users\vagok\Documents\GitHub\SzofttestDoga\Doga\Doga\obj\Debug\Doga.exe
-C:\Users\vagok\Documents\GitHub\SzofttestDoga\Doga\Doga\obj\Debug\Doga.pdb
