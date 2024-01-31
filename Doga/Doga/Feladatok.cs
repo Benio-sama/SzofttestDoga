@@ -51,15 +51,15 @@ namespace Doga
 
         public void Feladat4()
         {
-            int min = szamok[0];
+            int max = szamok[0];
             foreach (var item in szamok)
             {
-                if (item < min)
+                if (item > max)
                 {
-                    min = item;
+                    max = item;
                 }
             }
-            Console.WriteLine($"A legkisebb ertek: {min}");
+            Console.WriteLine($"A legkisebb ertek: {max}");
         }
     }
 }
